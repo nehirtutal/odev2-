@@ -1,0 +1,7 @@
+#1 ve 100 aralığındaki sayılar için
+for i in range(1, 100):
+ # değerler 2'ye bölündüğünde kalan 0 oluyorsa
+ if i % 2 ==0:
+  # değerleri ekrana yazdırıyoruz
+  print(i)
+  
