@@ -1,0 +1,13 @@
+# Kullanıcıdan bir metin alıyoruz
+metin = input("Bir metin giriniz: ")
+
+#Metnin ters çevrilmiş hali için değişken
+ters_metin = ""
+
+# -1 Range döngüsü ile metnin uzunluğunu alıp her i değeri için sondan başa 0. harfe kadar alıyoruz
+for i in range(len(metin) - 1, -1, -1):
+    #i değerlerinden çıkan sonuçları toplayınca metni tersten elde etmiş oluyoruz
+    ters_metin += metin[i]
+
+# Ters çevrilmiş metni ekrana yazdırıyoruz
+print("Ters çevrilmiş metin:", ters_metin)
